@@ -1,0 +1,117 @@
+html, body{
+    height: 100%;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background: #385458;
+    font-family: 'Roboto';
+    font-size: 12pt;
+}
+
+h1, h2, h3{
+    margin-left: 10px;
+    padding: 0px;
+    color: #404040;
+}
+
+p, ol, ul{
+    margin-top: 0;
+    margin-left: 10px;
+}
+
+p {
+    line-height: 180%;
+}
+
+ol, ul{
+    padding: 0;
+    list-style: none;
+}
+
+#container{
+  width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+  min-height:100%;
+  background: #519E8A;
+
+}
+
+/*************************/
+/*    Styling  Header    */
+/*************************/
+header{
+
+    overflow: hidden;
+    padding: 10px;
+}
+
+#top-header{
+
+    text-align: center;
+    height: 60px;
+}
+
+/****************/
+/* Styling Logo */
+/****************/
+#logo{
+    float: left;
+    padding: none;
+    margin: none;
+    /*height: 200px;*/
+    width: 15%;
+}
+
+#logo img{
+    width: 100%;
+    height: auto;
+    float: left;
+    padding: 10px;
+}
+
+/***************************/
+/* Styling Navigation Menu */
+/***************************/
+#menu{
+    float: right;
+    width: 70%;
+    height: 100%;
+    margin: none;
+}
+
+#menu ul{
+    text-align: center;
+    float: right;
+    margin: none;
+    background: #B1B594;
+}
+
+#menu li{
+    display: inline-block;
+    padding: none;
+    margin: none;
+}
+
+#menu li a, #menu li span{
+    display: inline-block;
+    padding: 0em 1.5em;
+    text-decoration: none;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 60px;
+}
+
+#menu li a{
+
+    color: #FFF;
+}
+
+#menu li:hover a, #menu li span{
+    background: #C98686;
+    /*color: #0074D9;*/
+    /*border-left: 1px solid #0074D9;*/
+    text-decoration: none;
+}
